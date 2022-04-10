@@ -7,26 +7,25 @@ body {
   background-color: gray;
 }
 .switch {
+  display: block;
   text-transform: uppercase;
   text-align: center;
   overflow: hidden;
-  left: 50%;
-  top: 50%;
   border-radius: 10px;
   border: 2px solid black;
-  box-shadow: 2px black;
+  box-shadow: 0 0 1em black;
   width: 200px;
   height: 100px;
   background-color: rgb(91, 91, 91);
   color: white;
-  font-family: 'Electrolize', sans-serif;
+  font-family: "Electrolize", sans-serif;
   font-size: 40px;
   cursor: pointer;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 .switch:hover {
   background-color: white;
@@ -35,9 +34,7 @@ body {
 div {
   text-transform: uppercase;
   text-align: center;
-  left: 50%;
-  top: 50%;
-  box-shadow: 2px black;
+  box-shadow: 0 0 1em black;
   width: 200px;
   height: 200px;
   background-color: white;
@@ -56,7 +53,8 @@ div {
 .switchon {
   color: black;
   background-color: rgb(252, 208, 64);
+  box-shadow: 0 0 1em gold;
 }
 .bgc {
-    background-color: rgb(255, 239, 188);
+  background-color: rgb(255, 239, 188);
 }
